@@ -1,7 +1,7 @@
 public class FirstOne {
     public static void main(String[] args) {
         int myAge; // WHole number
-        myAge = 22;
+        myAge = 222;
         String name = "Jake"; // 2 quotes not 1
         char nameInital = 'J';
         System.out.printf("Name:%s \n Age:%s", name, myAge );
