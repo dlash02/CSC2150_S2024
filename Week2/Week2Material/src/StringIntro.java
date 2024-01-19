@@ -39,11 +39,14 @@ public class StringIntro {
     }
 
     private static String reverseString(String myString) {
-        String revStr = "";
-        for( int i=myString.length()-1; i>=0; i-- ) {
-                revStr += myString.charAt(i);
-        }
-            return revStr;
+//        String revStr = "";
+        StringBuilder sb = new StringBuilder(myString);
+        return sb.reverse().toString();
+//        for( int i=myString.length()-1; i>=0; i-- ) {
+////                revStr += myString.charAt(i);
+//            sb.append( myString.charAt(i));
+//        }
+//            return sb.toString();
     }
 
     private static int countCharactersInString(char letter, String myName2) {
