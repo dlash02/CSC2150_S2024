@@ -1,0 +1,16 @@
+id,candy_name,quantity,price
+1,Chocolate Bar,50,1.50
+2,Gummy Bears,30,2.00
+3,Lollipop,40,0.75
+4,Reeses PeanutButter Cups,25,1.25
+5,Caramel Chew,35,1.80
+6,Sour Patch Kids,20,1.50
+7,Toffee Crunch,45,2.25
+8,Jelly Beans,55,1.00
+9,Marshmallow Delight,30,1.75
+10,Hard Candy Mix,40,1.20
+11,Cotton Candy,25,2.50
+12,Peanut Brittle,30,2.20
+13,Fruit Gummies,40,1.30
+14,Licorice Twists,15,1.90
+15,Almond Joy,17,2.75
