@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba78d98-8064-46b2-b9bf-0be929d9183a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InClassArrayList_1_29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrepClasses/ArrayList_of_Objects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrepClassesV2/ArrayList_of_Students_w_grades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrepClassesV2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Week4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC3510_S2024/Week4",
+    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC3630/CSC2150 S2024/CodePrep1",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -52,7 +44,7 @@
       <recent name="PrepClasses" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.InClass_1_31_classes">
     <configuration name="ArrayList_of_Students_w_grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepClassesV2.ArrayList_of_Students_w_grades" />
       <module name="Week4" />
@@ -66,8 +58,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InClass_1_31_classes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InClass_1_31_classes" />
+      <module name="Week4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InClass_1_31_classes" />
         <item itemvalue="Application.ArrayList_of_Students_w_grades" />
       </list>
     </recent_temporary>
@@ -85,6 +85,7 @@
       <workItem from="1706553756313" duration="8170000" />
       <workItem from="1706575454936" duration="6102000" />
       <workItem from="1706619474720" duration="272000" />
+      <workItem from="1706718737498" duration="3648000" />
     </task>
     <servers />
   </component>
