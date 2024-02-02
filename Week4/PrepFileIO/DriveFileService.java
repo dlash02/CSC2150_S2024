@@ -6,28 +6,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Scanner101 {
+public class DriveFileService {
     public static void main(String[] args) {
         String fName = "inventory.txt";
-        ArrayList<String> fData =  getTheFile( fName );
+        FileIO_Service fIO = new FileIO_Service( fName );
+        ArrayList<String> fData =  fIO.getTheFile( );
         System.out.printf("\n ROwSize:%s", fData.size());
         int soldItem = getSoldItem( fData );
         fData = updateItemAsSold( fData, soldItem );
         showNewItems( fData );
-        fName = "inventory2.txt";
-        saveTheNewData( fName, fData );
-    }
-
-    private static void saveTheNewData(String fName, ArrayList<String> fData) {
-        try ( FileWriter fileWriter = new FileWriter(fName)) {
-            // Read from the input file using Scanner and write to the output file using FileWriter
-            for ( String row : fData ){
-                fileWriter.write(row + "\n");
-            }
-            System.out.printf("Data written to the file:%s  successfully!", fName );
-        } catch (IOException e) {
-            System.err.println("Error reading/writing the file: " + e.getMessage());
-        }
+        fName = "inventory3.txt";
+        fIO.setfName( fName);
+        fIO.saveTheData(  fData );
     }
 
     private static void showNewItems(ArrayList<String> fData) {
@@ -64,19 +54,5 @@ public class Scanner101 {
         }
         return item;
     }
-    private static ArrayList<String> getTheFile(String fName) {
-        ArrayList<String> rows = new ArrayList<>();
-//        Scanner scanner = new Scanner(System.in);
-        try (Scanner fileScanner = new Scanner(new File(fName))) {
-            // Read from the input file using Scanner and output to the console
-            while (fileScanner.hasNextLine()) {
-                String line = fileScanner.nextLine();
-                rows.add( line );
-            }
-            System.out.println("Data read from the file and printed to console successfully!");
-        } catch (FileNotFoundException e) {
-            System.err.println("File not found: " + e.getMessage());
-        }
-        return rows;
-    }
+
 }

@@ -11,6 +11,15 @@ public class Student {
         this.age = age;
         this.grades = grades;
     }
+    public Student(String name, int age ) {
+        this.name = name;
+        this.age = age;
+        this.grades = new ArrayList<>();
+    }
+    public void setAge( int age) {
+        this.age = age;
+    }
+
     public int getAge(){
         return age;
     }
