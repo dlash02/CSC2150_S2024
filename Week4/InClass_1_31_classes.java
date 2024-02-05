@@ -11,6 +11,14 @@ public class InClass_1_31_classes {
             int ct = countTheseMajors( students, "CSC");
             System.out.printf("\n Count of CSC majors:%s", ct );
 
+            Student s = new Student( "Fred", 20, "CSC");
+            String name = s.getName();
+            String sport = s.sport;
+            s.sport = "Soccer";
+            s.setAge( 45 );
+            System.out.printf("\n S:%s age:%s sport:%s",
+                              s.getName(), s.getAge(), s.sport);
+
         }
 
     private static int countTheseMajors(ArrayList<Student> students, String inMajor ) {

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba78d98-8064-46b2-b9bf-0be929d9183a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PrepFileIO/FileIO_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentWGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrepClassesV2/ArrayList_of_Students_w_grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrepClassesV2/ArrayList_of_Students_w_grades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrepClassesV2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrepClassesV2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrepFileIO/Scanner101.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrepFileIO/DriveFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InClass_1_31_classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/InClass_1_31_classes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week4/InClass_1_31_classes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/InClass_1_31_classes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/PrepClassesV2/ArrayList_of_Students_w_grades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/PrepClassesV2/ArrayList_of_Students_w_grades.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/PrepClassesV2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/PrepClassesV2/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/PrepFileIO/Scanner101.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week4/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +40,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC3510_S2024/Week3",
+    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC2150_S2024_InClass/Week4",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="PrepClassesV2" />
       <recent name="PrepClasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriveFileService">
+  <component name="RunManager" selected="Application.InClass_2_2StudentwGrades">
     <configuration name="ArrayList_of_Students_w_grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepClassesV2.ArrayList_of_Students_w_grades" />
       <module name="Week4" />
@@ -88,8 +85,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InClass_2_2StudentwGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InClass_2_2StudentwGrades" />
+      <module name="Week4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InClass_2_2StudentwGrades" />
         <item itemvalue="Application.DriveFileService" />
         <item itemvalue="Application.ArrayList_of_Students_w_grades" />
         <item itemvalue="Application.InClass_1_31_classes" />
@@ -113,6 +118,7 @@
       <workItem from="1706736192162" duration="7846000" />
       <workItem from="1706791863253" duration="301000" />
       <workItem from="1706803846003" duration="26000" />
+      <workItem from="1706891709878" duration="3705000" />
     </task>
     <servers />
   </component>
