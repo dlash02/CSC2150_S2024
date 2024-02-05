@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bba78d98-8064-46b2-b9bf-0be929d9183a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StudentWGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InClass_1_31_classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/InClass_1_31_classes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/InClass_1_31_classes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/InClass_1_31_classes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week4/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/Student.class" afterDir="false" />
-    </list>
+    <list default="true" id="bba78d98-8064-46b2-b9bf-0be929d9183a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC2150_S2024_InClass/Week4",
+    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC2150_S2024_InClass/Week5",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -119,6 +111,7 @@
       <workItem from="1706791863253" duration="301000" />
       <workItem from="1706803846003" duration="26000" />
       <workItem from="1706891709878" duration="3705000" />
+      <workItem from="1707152915290" duration="15000" />
     </task>
     <servers />
   </component>
