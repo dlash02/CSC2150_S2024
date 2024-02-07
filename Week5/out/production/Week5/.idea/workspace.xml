@@ -4,6 +4,7 @@
     <list default="true" id="738e29fc-4e9c-418c-9773-6ffb11179a02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recursion/src/Hello1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/Hello1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Recur1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/Recur1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <updated>1707152929805</updated>
       <workItem from="1707152931098" duration="35000" />
       <workItem from="1707153065604" duration="19000" />
-      <workItem from="1707325982695" duration="2365000" />
+      <workItem from="1707325982695" duration="1494000" />
     </task>
     <servers />
   </component>
