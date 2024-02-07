@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="738e29fc-4e9c-418c-9773-6ffb11179a02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.java" afterDir="false" />
-    </list>
+    <list default="true" id="738e29fc-4e9c-418c-9773-6ffb11179a02" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dlash/Documents/GitHub/CSC2150_S2024_InClass/Week5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dlash/Documents/GitHub/CSC2150_S2024_InClass/Week5&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707152929805</updated>
       <workItem from="1707152931098" duration="35000" />
+      <workItem from="1707153065604" duration="19000" />
     </task>
     <servers />
   </component>
