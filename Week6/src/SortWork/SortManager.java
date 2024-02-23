@@ -3,11 +3,11 @@ package SortWork;
 public class SortManager {
     int[] inList;
 
-    public SortManager(int[] inList) {
-        this.inList = inList;
+    public SortManager(int[] inList2) {
+        inList = inList2;
     }
     public int[] bubbleSort() {
-        int n = inList.length;
+        int n = this.inList.length;
         for (int i=0; i<n-1; i++ ){
             // grab the left most item and move compare it.
             for (int j=0; j<n-i-1; j++ ){
