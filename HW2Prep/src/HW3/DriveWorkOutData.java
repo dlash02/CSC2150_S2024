@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class DriveWorkOutData  {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String> stringData = getWorkOutData();
-        System.out.printf("\n size:%s", stringData.size());
+//        System.out.printf("\n size:%s", stringData.size());
         ArrayList<WorkOut> workOuts = convertStringsToData( stringData);
         ArrayList<Integer> byWeek = averageByWeek( workOuts);
         showCaloriesByWeek( byWeek );
