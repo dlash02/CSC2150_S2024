@@ -17,6 +17,30 @@ public class DriveCandy {
         Candy bestProfit = getBestProfitMargin( candy );
         // show the item with best profit margin
         showTheCandy( bestProfit );
+        //ToDo: Add this method
+        Candy mostSales = getCandyWithMostSales( candy );
+        showTheCandy( mostSales );
+        ArrayList<Candy> bestSellers = getBestSellingCandy( candy, 40 );
+        showTheseCandies( bestSellers );
+    }
+
+    private static void showTheseCandies(ArrayList<Candy> bestSellers) {
+        //ToDo: Add this method that outputs all the bestSellers candy.
+        //   include the name, cost, price and sales
+    }
+
+    private static ArrayList<Candy> getBestSellingCandy(ArrayList<Candy> candy, int amount) {
+        ArrayList<Candy> bestSellers = new ArrayList<>();
+        //ToDo: Return all candy Items that have sold amount number of pieces or more.
+        //    E.g., if amount was 40 and and item sold 40 pieces you would include it.
+        return bestSellers;
+    }
+
+    private static Candy getCandyWithMostSales(ArrayList<Candy> candy) {
+        //ToDo: find the candy that produced the greatest sales revenue
+        //     Sales revenue is calculated by the salePrice*numSold
+        Candy c = null;
+        return c ;
     }
 
     private static void showTheCandy(Candy bestProfit) {
