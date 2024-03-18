@@ -19,14 +19,16 @@ public class DriveWorkOutData  {
         }
     }
 
-    private static ArrayList<Integer> averageByWeek(ArrayList<WorkOut> workOuts) {
+    public static ArrayList<Integer> averageByWeek(ArrayList<WorkOut> workOuts) {
         ArrayList<Integer> byWeek = new ArrayList<>();
+
         int nWeeks = workOuts.size()/7;
         int ct = 0;
         for( int i=0; i<nWeeks; i++){
             int cCals = 0;
             int wCals = 0;
             for( int j=0; j<7; j++) {
+                e
                 cCals += workOuts.get(ct).getCardioCalories();
                 wCals += workOuts.get(ct).getWeightCalories();
                 System.out.printf("\nCCalc:%s", cCals);

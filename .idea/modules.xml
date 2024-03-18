@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSC2150_S2024_InClass.iml" filepath="$PROJECT_DIR$/CSC2150_S2024_InClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW2Prep/HW2Prep.iml" filepath="$PROJECT_DIR$/HW2Prep/HW2Prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Week2.iml" filepath="$PROJECT_DIR$/Week2/Week2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week6/Week6.iml" filepath="$PROJECT_DIR$/Week6/Week6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week8/Week8.iml" filepath="$PROJECT_DIR$/Week8/Week8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week9/Week9.iml" filepath="$PROJECT_DIR$/Week9/Week9.iml" />
+    </modules>
+  </component>
+</project>
