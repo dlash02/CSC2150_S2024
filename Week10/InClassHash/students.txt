@@ -1,0 +1,21 @@
+First Name,Last Name,Birth Year,GPA,Major,Student ID
+Harry,Potter,2006,3.8,DarkArts,123456
+Hermione,Granger,2006,4.0,Potions,234567
+Ron,Weasley,2006,3.5,Transfiguration,345678
+Luna,Lovegood,2007,3.9,Divination,456789
+Draco,Malfoy,2006,3.6,DarkArts,567890
+Ginny,Weasley,2007,3.7,Charms,678901
+Neville,Longbottom,2006,3.3,Herbology,789012
+Cho,Chang,2006,3.2,Astronomy,890123
+Fred,Weasley,2006,3.4,Magical Engineering,901234
+George,Weasley,2006,3.1,Alchemy,012345
+Severus,Snape,1986,3.7,Potions,123321
+Minerva,McGonagall,1965,3.9,Transfiguration,321123
+Albus,Dumbledore,1909,4.0,Headmaster Studies,111222
+Bellatrix,Lestrange,1986,3.6,DarkArts,222111
+Sirius,Black,1986,3.5,DarkArts,333222
+Remus,Lupin,1986,3.3,DarkArts,444333
+Nymphadora,Tonks,1999,3.8,Transfiguration,555444
+Filius,Flitwick,1956,3.7,Charms,666555
+Pomona,Sprout,1953,3.4,Herbology,777666
+Horace,Slughorn,1946,3.2,Potions,888777
