@@ -25,8 +25,8 @@ public class DriveStudentRecord {
                 if (!byID.containsKey( sId )){
                     System.out.printf("\n Invalid Sid:%s ", sId);
                 } else {
-                    Student student = byID.get( sId );
-                    System.out.printf("\n Student:%s", student.toString());
+                    Student student = byID.get(sId);
+                    System.out.printf("\n Student Rec:%s", student.toString());
                 }
             }
         }
