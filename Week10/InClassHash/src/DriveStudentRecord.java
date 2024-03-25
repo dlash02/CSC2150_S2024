@@ -12,6 +12,47 @@ public class DriveStudentRecord {
         System.out.printf("\n ID Size:%s", byID.size());
         promptUserForID( byID );
 
+        HashMap<String, ArrayList<Student>> byMajor = arrangeDataByMajor( byID );
+        showByMajor( byMajor);
+//        HashMap<String, Integer> items = new HashMap<>();
+//        items.put("Saw", 21);
+//
+//        if ( items.containsKey("Saw")){
+//            int val = items.get("Saw") - 2;
+//            items.put("Saw", val);
+//        }
+//        for( String key : items.keySet()){
+//            System.out.printf("\n item:%s val:%s", key, items.get(key));
+//        }
+
+    }
+
+    private static void showByMajor(HashMap<String, ArrayList<Student>> byMajor) {
+        for( String major : byMajor.keySet()){
+            ArrayList<Student> students = byMajor.get( major );
+            System.out.printf("\n ---- Showing Major:%s ---", major);
+            for( Student student : students ) {
+                System.out.printf("\n - %s", student.toString());
+            }
+        }
+    }
+
+    private static HashMap<String, ArrayList<Student>> arrangeDataByMajor(HashMap<Integer,Student> byID) {
+        HashMap<String, ArrayList<Student>> byMajor = new HashMap<>();
+        for( Integer sId : byID.keySet()){
+            Student sRec = byID.get(sId);
+            String major = sRec.getMajor();
+            if ( !byMajor.containsKey( major )){
+                ArrayList<Student> students = new ArrayList<>();
+                students.add( sRec );
+                byMajor.put( major, students);
+            } else {
+                ArrayList<Student> students = byMajor.get( major );
+                students.add( sRec );
+                byMajor.put( major, students );
+            }
+        }
+        return byMajor;
     }
 
     private static void promptUserForID(HashMap<Integer,Student> byID) {
