@@ -1,0 +1,316 @@
+{
+  "departments": [
+    {
+      "IT Department": {
+        "manager": {
+          "firstname": "David",
+          "lastname": "Jones",
+          "id": "ITM001",
+          "items": [
+            {
+              "name": "Laptop",
+              "make": "Dell",
+              "model": "Latitude 7400"
+            },
+            {
+              "name": "Desk",
+              "make": "IKEA",
+              "model": "Linnmon / Adils"
+            },
+            {
+              "name": "Monitor",
+              "make": "HP",
+              "model": "Pavilion 22cwa"
+            }
+          ]
+        },
+        "employees": [
+          {
+            "firstname": "Sarah",
+            "lastname": "Johnson",
+            "occupation": "Software Engineer",
+            "salary": 85000,
+            "id": "IT001",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Apple",
+                "model": "MacBook Pro"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Bekant"
+              },
+              {
+                "name": "Monitor",
+                "make": "Dell",
+                "model": "U2719D"
+              }
+            ],
+            "hobbies": ["Hiking", "Painting", "Playing Guitar"]
+          },
+          {
+            "firstname": "Michael",
+            "lastname": "Chen",
+            "occupation": "System Administrator",
+            "salary": 75000,
+            "id": "IT002",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Lenovo",
+                "model": "ThinkPad X1 Carbon"
+              },
+              {
+                "name": "Desk",
+                "make": "Steelcase",
+                "model": "Gesture"
+              },
+              {
+                "name": "Monitor",
+                "make": "LG",
+                "model": "27UK850-W"
+              }
+            ],
+            "hobbies": ["Photography", "Cooking", "Playing Basketball"]
+          }
+        ]
+      }
+    },
+    {
+      "Marketing Department": {
+        "manager": {
+          "firstname": "Emily",
+          "lastname": "Williams",
+          "id": "MKM001",
+          "items": [
+            {
+              "name": "Laptop",
+              "make": "HP",
+              "model": "Envy x360"
+            },
+            {
+              "name": "Desk",
+              "make": "IKEA",
+              "model": "Alex / Linnmon"
+            },
+            {
+              "name": "Monitor",
+              "make": "Dell",
+              "model": "S2419H"
+            }
+          ]
+        },
+        "employees": [
+          {
+            "firstname": "Jessica",
+            "lastname": "Nguyen",
+            "occupation": "Marketing Manager",
+            "salary": 90000,
+            "id": "MK001",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Apple",
+                "model": "MacBook Air"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Micke"
+              },
+              {
+                "name": "Monitor",
+                "make": "LG",
+                "model": "34WK650-W"
+              }
+            ],
+            "hobbies": ["Writing", "Dancing", "Photography"]
+          },
+          {
+            "firstname": "Daniel",
+            "lastname": "Smith",
+            "occupation": "Marketing Specialist",
+            "salary": 65000,
+            "id": "MK002",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Microsoft",
+                "model": "Surface Laptop 4"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Fredde"
+              },
+              {
+                "name": "Monitor",
+                "make": "HP",
+                "model": "EliteDisplay E243d"
+              }
+            ],
+            "hobbies": ["Reading", "Yoga", "Traveling"]
+          }
+        ]
+      }
+    },
+    {
+      "Finance Department": {
+        "manager": {
+          "firstname": "Ryan",
+          "lastname": "Johnson",
+          "id": "FNM001",
+          "items": [
+            {
+              "name": "Laptop",
+              "make": "Lenovo",
+              "model": "IdeaPad 3"
+            },
+            {
+              "name": "Desk",
+              "make": "IKEA",
+              "model": "Skarsta"
+            },
+            {
+              "name": "Monitor",
+              "make": "Acer",
+              "model": "R240HY"
+            }
+          ]
+        },
+        "employees": [
+          {
+            "firstname": "Ryan",
+            "lastname": "Thompson",
+            "occupation": "Financial Analyst",
+            "salary": 80000,
+            "id": "FN001",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "HP",
+                "model": "Pavilion 15"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Bekant"
+              },
+              {
+                "name": "Monitor",
+                "make": "ASUS",
+                "model": "VG248QG"
+              }
+            ],
+            "hobbies": ["Playing Piano", "Running", "Bird Watching"]
+          },
+          {
+            "firstname": "Amanda",
+            "lastname": "Wilson",
+            "occupation": "Accountant",
+            "salary": 70000,
+            "id": "FN002",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Dell",
+                "model": "Inspiron 15"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Skarsta"
+              },
+              {
+                "name": "Monitor",
+                "make": "Samsung",
+                "model": "S24F350"
+              }
+            ],
+            "hobbies": ["Hiking", "Painting", "Playing Tennis"]
+          }
+        ]
+      }
+    },
+    {
+      "Human Resources Department": {
+        "manager": {
+          "firstname": "Jason",
+          "lastname": "Davis",
+          "id": "HRM001",
+          "items": [
+            {
+              "name": "Laptop",
+              "make": "Apple",
+              "model": "MacBook Air"
+            },
+            {
+              "name": "Desk",
+              "make": "IKEA",
+              "model": "Alex / Linnmon"
+            },
+            {
+              "name": "Monitor",
+              "make": "Dell",
+              "model": "S2421H"
+            }
+          ]
+        },
+        "employees": [
+          {
+            "firstname": "Megan",
+            "lastname": "Smith",
+            "occupation": "HR Manager",
+            "salary": 95000,
+            "id": "HR001",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Microsoft",
+                "model": "Surface Laptop Go"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Bekant"
+              },
+              {
+                "name": "Monitor",
+                "make": "HP",
+                "model": "Pavilion 22cwa"
+              }
+            ],
+            "hobbies": ["Horseback Riding", "Painting", "Swimming"]
+          },
+          {
+            "firstname": "David",
+            "lastname": "Brown",
+            "occupation": "Recruiter",
+            "salary": 70000,
+            "id": "HR002",
+            "items": [
+              {
+                "name": "Laptop",
+                "make": "Lenovo",
+                "model": "IdeaPad Flex 5"
+              },
+              {
+                "name": "Desk",
+                "make": "IKEA",
+                "model": "Micke"
+              },
+              {
+                "name": "Monitor",
+                "make": "Dell",
+                "model": "S2421HGF"
+              }
+            ],
+            "hobbies": ["Playing Chess", "Gardening", "Watching Movies"]
+          }
+        ]
+      }
+    }
+  ]
+}
